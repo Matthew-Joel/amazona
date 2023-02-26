@@ -84,6 +84,14 @@ const CartDetails = () => {
                        {itemsPrice}
                         </div>
                     </li>
+                    <li>
+                      <button 
+                      onClick={() => router.push('/shipping')}
+                      className="btn btn-primary w-full"
+                      >
+                        Proceed to Checkout
+                      </button>
+                    </li>
                 </ul>
                 </div>
             </div>
