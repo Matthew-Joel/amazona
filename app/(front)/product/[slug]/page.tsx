@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import data from "@/components/header/lib/data";
 import Link from "next/link";
 import Image from "next/image";
